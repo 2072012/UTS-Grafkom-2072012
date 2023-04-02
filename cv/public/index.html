@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+
+    body {
+        margin:0;
+        overflow: hidden;
+    }
+
+</style>
+<body>
+  <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Jason's</b> Resume</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+    </div>
+  </div>
+</div>
+<br>
+<div class="w3-container w3-padding-32" id="about">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+  <h3>Jason Himendrian Hofendi</h3>
+  <p class="w3-opacity">Student</p>
+  <p>Education : Maranatha Christian University</p>
+  <p>Email : jasonhimendrian@gmail.com</p>
+  <p>Phone : 081271770706</p>
+  <p>Address : Jalan Babakan Jeruk 1 no.109, Bandung</p>
+  <p>Skills : Can speak english properly, web design with figma, self management, money management, time management</p>
+</div>
+    <div class="w3-center">
+      <canvas id="jshape" width="1500" height="800"></canvas>
+    </div>
+    
+
+    <div class="w3-container w3-padding-32" id="projects">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+    </div>
+  
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Monument</div>
+          <canvas id="mycanvas3" ></canvas>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom"></div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Car</div>
+          <canvas id="mycanvas4"></canvas>
+        </div>
+      </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script type="importmap">
+        {
+            "imports" : {
+                "three" : "./node_modules/three/build/three.module.js"
+            }
+        }
+    </script>
+    <script type="module" src="index.js" ></script>
+    <script type="module" src="index2.js" type="module"></script>
+    <script type="module" src="index3.js" type="module"></script>
+    <script type="module" src="bundle.js" type="module"></script>
+    
+</body>
+</html>
